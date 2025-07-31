@@ -1,0 +1,7 @@
+package in.cfn.main.entities;
+
+public class Student {
+
+	private int id;
+	
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="411"/>
+		<item key="DIALOG_Y_ORIGIN" value="53"/>
+		<item key="DIALOG_WIDTH" value="770"/>
+		<item key="DIALOG_HEIGHT" value="581"/>
+		<item key="DIALOG_FONT_NAME" value="1|Source Code Pro|13.0|0|COCOA|1|SourceCodePro-Regular"/>
+	</section>
+</section>

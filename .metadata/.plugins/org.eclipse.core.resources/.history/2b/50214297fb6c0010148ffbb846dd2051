@@ -1,0 +1,5 @@
+package in.cfn.main.entity;
+
+public class User {
+
+}

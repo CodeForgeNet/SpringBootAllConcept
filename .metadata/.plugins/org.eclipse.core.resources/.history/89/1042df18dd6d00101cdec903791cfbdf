@@ -1,0 +1,16 @@
+package in.cfn.main.services;
+
+import in.cfn.main.entities.Student;
+import in.cfn.main.repository.StudentRepository;
+
+public class StudentServiceImpl implements StudentService {
+	
+	private StudentRepository
+
+	@Override
+	public boolean addStudentDetails(Student std) {
+		
+		return false;
+	}
+
+}

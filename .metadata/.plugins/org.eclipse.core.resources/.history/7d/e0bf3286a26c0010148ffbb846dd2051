@@ -1,0 +1,42 @@
+// MainConfig.java
+// This configuration class defines beans for Student objects and a CommandLineRunner to display their details at application startup.
+// It demonstrates how to use @Configuration and @Bean annotations in Spring Boot to manage beans outside the main class.
+
+package in.cfn.main.config;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import in.cfn.main.beans.Student;
+
+// If we don't want anything except main method in main class then we do this.
+
+@Configuration
+public class MainConfig {
+	
+	@Bean
+	public CommandLineRunner cmdLineRun() {
+		return new CommandLineRunner() {
+			
+			@Override
+			public void run(String... args) throws Exception {
+				
+				stdBean1().displayStdDetails();
+				System.out.println("---------");
+				stdBean2().displayStdDetails();
+				
+			}
+		};
+	}
+	
+	@Bean
+	public Student stdBean1() {
+		return new Student("karan", 101, 98.3f);
+	}
+	
+	@Bean
+	public Student stdBean2() {
+		return new Student("arjun", 102, 94.5f);
+	}
+}

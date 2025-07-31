@@ -1,0 +1,5 @@
+package in.cfn.main.beans;
+
+public class Student {
+
+}

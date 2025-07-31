@@ -1,0 +1,33 @@
+package in.cfn.main;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+import in.cfn.main.entities.User;
+import in.cfn.main.repository.DbOperations;
+
+
+
+// This project is not good way to do. watch its 2nd part.
+
+
+@SpringBootApplication
+public class SpringbootWithHibernate1Application {
+
+	public static void main(String[] args) {
+		ApplicationContext context = SpringApplication.run(SpringbootWithHibernate1Application.class, args);
+		
+		DbOperations dbOp = context.getBean(DbOperations.class);
+		User user = dbOp.getUserDetails(3);
+		
+		if(user != null) {
+			System.out.println();
+		}else {
+			System.out.println("USER NOT FOUND");
+		}
+		
+		
+	}
+
+}

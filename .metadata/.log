@@ -1,0 +1,2159 @@
+!SESSION 2025-07-19 12:09:06.885 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-19 12:09:09.078
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-19 12:09:09.184
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (329) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-19 12:09:31.871
+!MESSAGE Logback config file: /Users/karansingh/Documents/workspace-spring-tools-for-eclipse-4.31.0.RELEASE/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-19 12:09:31.999
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-19 12:09:31.999
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-19 12:09:32.211
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-19 12:09:32.211
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-07-19 12:09:35.443
+!MESSAGE No search provider was registered. Tasks search is not available.
+!SESSION 2025-07-19 12:09:55.568 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-19 12:09:57.245
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-19 12:09:57.419
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (329) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY org.eclipse.core.resources 4 567 2025-07-19 12:10:49.077
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2025-07-19 12:10:49.077
+!MESSAGE Could not read metadata for '.org.eclipse.egit.core.cmp'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/.org.eclipse.egit.core.cmp)[567]: java.lang.Exception: The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:971)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:934)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:790)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2624)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2325)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:591)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:565)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:826)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:768)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1066)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:394)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:643)
+	at org.eclipse.osgi.container.Module.start(Module.java:500)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:622)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:353)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:521)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:438)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:195)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:186)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2025-07-19 12:10:49.078
+!MESSAGE The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:971)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:934)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:790)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2624)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2325)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:591)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:565)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:826)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:768)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1066)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:394)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:643)
+	at org.eclipse.osgi.container.Module.start(Module.java:500)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:622)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:353)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:521)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:438)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:195)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:186)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-19 12:10:49.321
+!MESSAGE Logback config file: /Users/karansingh/Desktop/Spring-tools-for-eclipse-4.31.0.RELEASE/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-19 12:10:49.470
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-19 12:10:49.470
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-19 12:10:49.659
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-19 12:10:49.659
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-07-19 12:10:52.130
+!MESSAGE No search provider was registered. Tasks search is not available.
+!SESSION 2025-07-27 20:19:42.130 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-27 20:19:43.008
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-27 20:19:43.110
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (329) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY org.eclipse.core.resources 4 567 2025-07-27 20:20:38.061
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2025-07-27 20:20:38.061
+!MESSAGE Could not read metadata for '.org.eclipse.egit.core.cmp'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/.org.eclipse.egit.core.cmp)[567]: java.lang.Exception: The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:971)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:934)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:790)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2624)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2325)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:591)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:565)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:826)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:768)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1066)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:394)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:643)
+	at org.eclipse.osgi.container.Module.start(Module.java:500)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:622)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:353)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:521)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:438)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:195)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:186)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2025-07-27 20:20:38.065
+!MESSAGE The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:971)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:954)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:934)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:790)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1616)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2624)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2325)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:591)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:565)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:826)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:768)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1066)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:394)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:643)
+	at org.eclipse.osgi.container.Module.start(Module.java:500)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:622)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:353)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:521)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:438)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:195)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:186)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-27 20:20:38.319
+!MESSAGE Logback config file: /Users/karansingh/Desktop/SpringTools4eclipse/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-27 20:20:38.463
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-27 20:20:38.463
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-27 20:20:38.653
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-27 20:20:38.653
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-07-27 20:20:41.191
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-07-27 20:21:54.872
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.microsoft.copilot.eclipse.feature,0.9.3.202507240902 from repository https://azuredownloads-g3ahgwb5b8bkbxhd.b01.azurefd.net/github-copilot/.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-07-27 20:21:54.872
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.microsoft.copilot.eclipse.core,0.9.3.202507240902 from repository https://azuredownloads-g3ahgwb5b8bkbxhd.b01.azurefd.net/github-copilot/.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-07-27 20:21:54.872
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.microsoft.copilot.eclipse.ui,0.9.3.202507240902 from repository https://azuredownloads-g3ahgwb5b8bkbxhd.b01.azurefd.net/github-copilot/.
+!SESSION 2025-07-27 20:22:52.907 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring -data file:/Users/karansingh/Desktop/SpringTools4eclipse/
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-27 20:22:54.794
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-27 20:22:54.911
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (329) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-27 20:22:55.933
+!MESSAGE Logback config file: /Users/karansingh/Desktop/SpringTools4eclipse/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-27 20:22:56.105
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-27 20:22:56.105
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-27 20:22:56.390
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-27 20:22:56.390
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-27 20:22:59.043
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-27 20:23:00.231
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-27 20:23:01.952
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-27 20:23:02.128
+!MESSAGE [Info]	[certificates] Removed 5 expired certificates
+
+!ENTRY org.eclipse.epp.mpc.core 1 0 2025-07-27 20:24:21.350
+!MESSAGE Cannot parse XML at URL https://marketplace.eclipse.org/popular/top/api/p?client=org.eclipse.epp.mpc.core&os=macosx&platform.version=4.36: Invalid response content: An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+!STACK 1
+org.eclipse.epp.mpc.core.service.UnmarshalException: Invalid response content: An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceUnmarshaller.unmarshal(MarketplaceUnmarshaller.java:72)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:169)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:580)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$6(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:327)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.popular(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.popular(MarketplaceDiscoveryStrategy.java:584)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$4(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.runDiscoveryOperation(MarketplaceCatalog.java:521)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.performDiscovery(MarketplaceCatalog.java:480)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.popular(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.lambda$5(MarketplaceViewer.java:615)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 274; columnNumber: 1; An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceUnmarshaller.unmarshal(MarketplaceUnmarshaller.java:68)
+	... 15 more
+Contains: Received response begins with:
+
+1: <?xml version="1.0" encoding="UTF-8"?>
+2: <marketplace>
+3:   <popular count="10">
+
+!SUBENTRY 1 org.eclipse.epp.mpc.core 1 0 2025-07-27 20:24:21.351
+!MESSAGE Invalid response content: An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 274; columnNumber: 1; An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceUnmarshaller.unmarshal(MarketplaceUnmarshaller.java:68)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:169)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:580)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$6(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:327)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.popular(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.popular(MarketplaceDiscoveryStrategy.java:584)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$4(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.runDiscoveryOperation(MarketplaceCatalog.java:521)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.performDiscovery(MarketplaceCatalog.java:480)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.popular(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.lambda$5(MarketplaceViewer.java:615)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+!SUBENTRY 2 org.eclipse.epp.mpc.core 1 0 2025-07-27 20:24:21.351
+!MESSAGE Received response begins with:
+
+1: <?xml version="1.0" encoding="UTF-8"?>
+2: <marketplace>
+3:   <popular count="10">
+
+!SUBENTRY 1 org.eclipse.epp.mpc.core 1 0 2025-07-27 20:24:21.351
+!MESSAGE Invalid response content: An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 274; columnNumber: 1; An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceUnmarshaller.unmarshal(MarketplaceUnmarshaller.java:68)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:169)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:580)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$6(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:327)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.popular(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.popular(MarketplaceDiscoveryStrategy.java:584)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$4(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.runDiscoveryOperation(MarketplaceCatalog.java:521)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.performDiscovery(MarketplaceCatalog.java:480)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.popular(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.lambda$5(MarketplaceViewer.java:615)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+!SUBENTRY 2 org.eclipse.epp.mpc.core 1 0 2025-07-27 20:24:21.351
+!MESSAGE Received response begins with:
+
+1: <?xml version="1.0" encoding="UTF-8"?>
+2: <marketplace>
+3:   <popular count="10">
+
+
+!ENTRY org.eclipse.equinox.p2.discovery 4 0 2025-07-27 20:24:25.185
+!MESSAGE MarketplaceDiscoveryStrategy failed with an error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot complete request to https://marketplace.eclipse.org/popular/top/api/p?client=org.eclipse.epp.mpc.core&os=macosx&platform.version=4.36: Invalid response content: An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:195)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:580)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$6(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:327)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.popular(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.popular(MarketplaceDiscoveryStrategy.java:584)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$4(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.runDiscoveryOperation(MarketplaceCatalog.java:521)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.performDiscovery(MarketplaceCatalog.java:480)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.popular(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.lambda$5(MarketplaceViewer.java:615)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: org.eclipse.epp.mpc.core.service.UnmarshalException: Invalid response content: An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceUnmarshaller.unmarshal(MarketplaceUnmarshaller.java:72)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:169)
+	... 14 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 274; columnNumber: 1; An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceUnmarshaller.unmarshal(MarketplaceUnmarshaller.java:68)
+	... 15 more
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2025-07-27 20:24:25.185
+!MESSAGE Cannot complete request to https://marketplace.eclipse.org/popular/top/api/p?client=org.eclipse.epp.mpc.core&os=macosx&platform.version=4.36: Invalid response content: An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+!STACK 1
+org.eclipse.epp.mpc.core.service.UnmarshalException: Invalid response content: An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceUnmarshaller.unmarshal(MarketplaceUnmarshaller.java:72)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:169)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:580)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$6(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:327)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.popular(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.popular(MarketplaceDiscoveryStrategy.java:584)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$4(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.runDiscoveryOperation(MarketplaceCatalog.java:521)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.performDiscovery(MarketplaceCatalog.java:480)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.popular(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.lambda$5(MarketplaceViewer.java:615)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 274; columnNumber: 1; An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceUnmarshaller.unmarshal(MarketplaceUnmarshaller.java:68)
+	... 15 more
+Contains: Received response begins with:
+
+1: <?xml version="1.0" encoding="UTF-8"?>
+2: <marketplace>
+3:   <popular count="10">
+
+!SUBENTRY 2 org.eclipse.epp.mpc.core 1 0 2025-07-27 20:24:25.185
+!MESSAGE Invalid response content: An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 274; columnNumber: 1; An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceUnmarshaller.unmarshal(MarketplaceUnmarshaller.java:68)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:169)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:580)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$6(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:327)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.popular(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.popular(MarketplaceDiscoveryStrategy.java:584)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$4(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.runDiscoveryOperation(MarketplaceCatalog.java:521)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.performDiscovery(MarketplaceCatalog.java:480)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.popular(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.lambda$5(MarketplaceViewer.java:615)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+!SUBENTRY 3 org.eclipse.epp.mpc.core 1 0 2025-07-27 20:24:25.186
+!MESSAGE Received response begins with:
+
+1: <?xml version="1.0" encoding="UTF-8"?>
+2: <marketplace>
+3:   <popular count="10">
+
+
+!ENTRY org.eclipse.epp.mpc.core 1 0 2025-07-27 20:24:31.272
+!MESSAGE Cannot parse XML at URL https://marketplace.eclipse.org/popular/top/api/p?client=org.eclipse.epp.mpc.core&os=macosx&platform.version=4.36: Invalid response content: An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+!STACK 1
+org.eclipse.epp.mpc.core.service.UnmarshalException: Invalid response content: An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceUnmarshaller.unmarshal(MarketplaceUnmarshaller.java:72)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:169)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:580)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$6(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:327)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.popular(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.popular(MarketplaceDiscoveryStrategy.java:584)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$4(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.runDiscoveryOperation(MarketplaceCatalog.java:521)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.performDiscovery(MarketplaceCatalog.java:480)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.popular(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.lambda$5(MarketplaceViewer.java:615)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 274; columnNumber: 1; An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceUnmarshaller.unmarshal(MarketplaceUnmarshaller.java:68)
+	... 15 more
+Contains: Received response begins with:
+
+1: <?xml version="1.0" encoding="UTF-8"?>
+2: <marketplace>
+3:   <popular count="10">
+
+!SUBENTRY 1 org.eclipse.epp.mpc.core 1 0 2025-07-27 20:24:31.273
+!MESSAGE Invalid response content: An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 274; columnNumber: 1; An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceUnmarshaller.unmarshal(MarketplaceUnmarshaller.java:68)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:169)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:580)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$6(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:327)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.popular(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.popular(MarketplaceDiscoveryStrategy.java:584)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$4(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.runDiscoveryOperation(MarketplaceCatalog.java:521)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.performDiscovery(MarketplaceCatalog.java:480)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.popular(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.lambda$5(MarketplaceViewer.java:615)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+!SUBENTRY 2 org.eclipse.epp.mpc.core 1 0 2025-07-27 20:24:31.273
+!MESSAGE Received response begins with:
+
+1: <?xml version="1.0" encoding="UTF-8"?>
+2: <marketplace>
+3:   <popular count="10">
+
+!SUBENTRY 1 org.eclipse.epp.mpc.core 1 0 2025-07-27 20:24:31.273
+!MESSAGE Invalid response content: An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 274; columnNumber: 1; An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceUnmarshaller.unmarshal(MarketplaceUnmarshaller.java:68)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:169)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:580)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$6(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:327)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.popular(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.popular(MarketplaceDiscoveryStrategy.java:584)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$4(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.runDiscoveryOperation(MarketplaceCatalog.java:521)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.performDiscovery(MarketplaceCatalog.java:480)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.popular(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.lambda$5(MarketplaceViewer.java:615)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+!SUBENTRY 2 org.eclipse.epp.mpc.core 1 0 2025-07-27 20:24:31.273
+!MESSAGE Received response begins with:
+
+1: <?xml version="1.0" encoding="UTF-8"?>
+2: <marketplace>
+3:   <popular count="10">
+
+
+!ENTRY org.eclipse.equinox.p2.discovery 4 0 2025-07-27 20:24:32.661
+!MESSAGE MarketplaceDiscoveryStrategy failed with an error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot complete request to https://marketplace.eclipse.org/popular/top/api/p?client=org.eclipse.epp.mpc.core&os=macosx&platform.version=4.36: Invalid response content: An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:195)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:580)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$6(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:327)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.popular(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.popular(MarketplaceDiscoveryStrategy.java:584)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$4(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.runDiscoveryOperation(MarketplaceCatalog.java:521)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.performDiscovery(MarketplaceCatalog.java:480)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.popular(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.lambda$5(MarketplaceViewer.java:615)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: org.eclipse.epp.mpc.core.service.UnmarshalException: Invalid response content: An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceUnmarshaller.unmarshal(MarketplaceUnmarshaller.java:72)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:169)
+	... 14 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 274; columnNumber: 1; An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceUnmarshaller.unmarshal(MarketplaceUnmarshaller.java:68)
+	... 15 more
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2025-07-27 20:24:32.661
+!MESSAGE Cannot complete request to https://marketplace.eclipse.org/popular/top/api/p?client=org.eclipse.epp.mpc.core&os=macosx&platform.version=4.36: Invalid response content: An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+!STACK 1
+org.eclipse.epp.mpc.core.service.UnmarshalException: Invalid response content: An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceUnmarshaller.unmarshal(MarketplaceUnmarshaller.java:72)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:169)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:580)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$6(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:327)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.popular(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.popular(MarketplaceDiscoveryStrategy.java:584)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$4(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.runDiscoveryOperation(MarketplaceCatalog.java:521)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.performDiscovery(MarketplaceCatalog.java:480)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.popular(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.lambda$5(MarketplaceViewer.java:615)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 274; columnNumber: 1; An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceUnmarshaller.unmarshal(MarketplaceUnmarshaller.java:68)
+	... 15 more
+Contains: Received response begins with:
+
+1: <?xml version="1.0" encoding="UTF-8"?>
+2: <marketplace>
+3:   <popular count="10">
+
+!SUBENTRY 2 org.eclipse.epp.mpc.core 1 0 2025-07-27 20:24:32.661
+!MESSAGE Invalid response content: An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 274; columnNumber: 1; An invalid XML character (Unicode: 0xde80) was found in the CDATA section.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1251)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.eclipse.epp.internal.mpc.core.service.MarketplaceUnmarshaller.unmarshal(MarketplaceUnmarshaller.java:68)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:169)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:130)
+	at org.eclipse.epp.internal.mpc.core.service.RemoteMarketplaceService.processRequest(RemoteMarketplaceService.java:117)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:580)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.popular(DefaultMarketplaceService.java:1)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.lambda$6(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.performSearch(CachingMarketplaceService.java:327)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.popular(CachingMarketplaceService.java:378)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.popular(MarketplaceDiscoveryStrategy.java:584)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$4(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.runDiscoveryOperation(MarketplaceCatalog.java:521)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.performDiscovery(MarketplaceCatalog.java:480)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.popular(MarketplaceCatalog.java:98)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.lambda$5(MarketplaceViewer.java:615)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+!SUBENTRY 3 org.eclipse.epp.mpc.core 1 0 2025-07-27 20:24:32.661
+!MESSAGE Received response begins with:
+
+1: <?xml version="1.0" encoding="UTF-8"?>
+2: <marketplace>
+3:   <popular count="10">
+
+!SESSION 2025-07-27 20:29:13.979 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring -data file:/Users/karansingh/Desktop/SpringTools4eclipse/
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-27 20:29:16.082
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-27 20:29:16.211
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (329) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-27 20:29:23.516
+!MESSAGE Logback config file: /Users/karansingh/Desktop/SpringTools4eclipse/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-27 20:29:23.639
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-27 20:29:23.639
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-27 20:29:23.749
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-27 20:29:23.749
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-27 20:29:23.759
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-27 20:29:23.759
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2025-07-27 20:29:23.994
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2025-07-27 20:29:24.001
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-27 20:29:26.083
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-27 20:29:26.321
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2025-07-27 20:29:26.527
+!MESSAGE Authorization Server started successfuly
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-27 20:29:27.416
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-27 20:29:27.607
+!MESSAGE [Info]	[certificates] Removed 5 expired certificates
+!SESSION 2025-07-27 20:31:51.387 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring -data file:/Users/karansingh/Desktop/SpringTools4eclipse/
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-27 20:31:52.520
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-27 20:31:52.653
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (329) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-27 20:31:54.064
+!MESSAGE Logback config file: /Users/karansingh/Desktop/SpringTools4eclipse/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-27 20:31:54.238
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-27 20:31:54.238
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-27 20:31:54.561
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-27 20:31:54.561
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-27 20:31:57.424
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-27 20:31:57.663
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2025-07-27 20:31:57.847
+!MESSAGE Authorization Server started successfuly
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-27 20:31:58.656
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-27 20:31:58.841
+!MESSAGE [Info]	[certificates] Removed 5 expired certificates
+!SESSION 2025-07-27 20:36:58.483 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-27 20:36:59.824
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-27 20:36:59.956
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (329) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-27 20:37:05.930
+!MESSAGE Logback config file: /Users/karansingh/Desktop/SpringTools4eclipse/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-27 20:37:06.101
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-27 20:37:06.101
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-27 20:37:06.217
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-27 20:37:06.217
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-27 20:37:08.474
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-27 20:37:08.699
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2025-07-27 20:37:08.927
+!MESSAGE Authorization Server started successfuly
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-27 20:37:09.732
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-27 20:37:09.925
+!MESSAGE [Info]	[certificates] Removed 5 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-28 00:17:26.836
+!MESSAGE [Info]	[fetchCompletions] Request e906b1d5-5f25-4c5a-b680-eda8f36dc458 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 973.6831670012325ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-28 00:17:26.950
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-28 00:17:27.224
+!MESSAGE [Info]	[fetchCompletions] Request ab0ab6f6-b97f-45b7-b29b-deb4821334cf at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 263.1604580003768ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-28 00:17:27.325
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-28 00:17:30.394
+!MESSAGE [Info]	[fetchCompletions] Request 01fd8fd8-d6ef-4c1e-a412-fe6930fefed0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 288.6969159990549ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-28 00:17:30.497
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-28 00:17:32.979
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-28 00:17:34.205
+!MESSAGE [Info]	[code-referencing] No match found
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-28 00:22:04.811
+!MESSAGE [Info] Document is null for editor: SprongbootProject1Application.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-28 00:22:04.811
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SprongbootProject1/src/main/java/in/cfn/main/SprongbootProject1Application.java
+!SESSION 2025-07-28 13:04:45.291 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-28 13:04:46.432
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-28 13:04:46.546
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (329) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-28 13:04:51.933
+!MESSAGE Logback config file: /Users/karansingh/Desktop/SpringTools4eclipse/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-28 13:04:52.076
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-28 13:04:52.076
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-28 13:04:52.200
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-28 13:04:52.200
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-28 13:04:54.623
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-28 13:04:54.953
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2025-07-28 13:04:55.079
+!MESSAGE Authorization Server started successfuly
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-28 13:04:57.052
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-28 13:04:57.263
+!MESSAGE [Info]	[certificates] Removed 5 expired certificates
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-28 13:24:17.499
+!MESSAGE [Info] Document is null for editor: SprongbootProject1Application.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-28 13:24:17.500
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SprongbootProject1/src/main/java/in/cfn/main/SprongbootProject1Application.java
+
+!ENTRY org.eclipse.jface 2 0 2025-07-28 17:21:36.270
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-28 17:21:36.270
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-28 17:21:38.276
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-28 17:21:38.276
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SprongbootProject2/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-28 17:24:17.003
+!MESSAGE [Info]	[fetchCompletions] Request 0ec39092-e548-4285-a392-e101b285a66c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 1340.9078340008855ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-28 17:24:17.146
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-28 17:24:17.431
+!MESSAGE [Info]	[fetchCompletions] Request 26603dcd-cd15-4858-b859-5a877a24a676 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 269.8305000010878ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-28 17:24:17.475
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-28 17:24:20.228
+!MESSAGE [Info]	[fetchCompletions] Request cb442ebd-c5f2-443b-b09c-3c4570fe22c3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 514.7643749993294ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-28 17:24:20.277
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-28 23:43:34.123
+!MESSAGE [Info] Document is null for editor: SprongbootProject2Application.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-28 23:43:34.126
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SprongbootProject2/src/main/java/in/cfn/main/SprongbootProject2Application.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-28 23:43:34.162
+!MESSAGE [Info] Document is null for editor: MyController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-28 23:43:34.163
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SprongbootProject2/src/main/java/in/cfn/main/controllers/MyController.java
+!SESSION 2025-07-29 13:40:24.671 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-29 13:40:26.372
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-29 13:40:26.517
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (329) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-29 13:40:31.090
+!MESSAGE Logback config file: /Users/karansingh/Desktop/SpringTools4eclipse/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-29 13:40:31.273
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-29 13:40:31.273
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-29 13:40:31.403
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-29 13:40:31.403
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-29 13:40:35.698
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:425)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 13:40:35.785
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 13:40:36.332
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2025-07-29 13:40:37.310
+!MESSAGE Authorization Server started successfuly
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 13:40:38.167
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 13:40:38.410
+!MESSAGE [Info]	[certificates] Removed 5 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 13:51:44.334
+!MESSAGE [Info]	[fetchCompletions] Request 5c6766db-52b5-4542-9cb3-a7044959cd9f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 1193.2565830000676ms
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 13:51:45.862
+!MESSAGE [Info] Completion request timed out after 5000 milliseconds
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 13:51:46.904
+!MESSAGE [Info]	[fetchCompletions] Request c366379d-8d59-4f64-a829-540446ea38d9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 584.6376249999739ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 13:51:47.062
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 13:51:51.910
+!MESSAGE [Info]	[fetchCompletions] Request 14a216ae-09e8-406b-abb1-d4542c2c9aa6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 271.15070900006685ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 13:51:52.034
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 13:51:52.440
+!MESSAGE [Info]	[fetchCompletions] Request 08405b76-674e-48be-ab61-4528c3e1079e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 397.32091699994635ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 13:51:52.565
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 13:51:52.982
+!MESSAGE [Info]	[fetchCompletions] Request d8e3a299-537d-4618-a86b-fb41f15a7d5e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 260.55825000000186ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 13:51:53.098
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 13:52:01.120
+!MESSAGE [Info]	[fetchCompletions] Request 57b1d9ad-67e7-46eb-8be3-591543400324 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 282.52049999998417ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 13:52:01.257
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 14:02:34.973
+!MESSAGE [Info] Document is null for editor: MyController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 14:02:34.973
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SprongbootProject2/src/main/java/in/cfn/main/controllers/MyController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 14:02:38.121
+!MESSAGE [Info] Document is null for editor: SprongbootProject2Application.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 14:02:38.122
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SprongbootProject2/src/main/java/in/cfn/main/SprongbootProject2Application.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 14:22:44.374
+!MESSAGE [Info] Document is null for editor: MyController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 14:22:44.374
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringBootProject3/src/main/java/in/cfn/main/controllers/MyController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 14:22:45.848
+!MESSAGE [Info] Document is null for editor: SpringBootProject3Application.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 14:22:45.848
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringBootProject3/src/main/java/in/cfn/main/SpringBootProject3Application.java
+
+!ENTRY org.eclipse.jface 2 0 2025-07-29 14:22:56.567
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-29 14:22:56.567
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 14:23:00.173
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 14:23:00.174
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject2/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 14:23:07.994
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 14:23:07.996
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject2/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 14:23:24.463
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 14:23:24.464
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject1/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 14:33:05.386
+!MESSAGE [Info] Document is null for editor: SprongbootProject1Application.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 14:33:05.387
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject1/src/main/java/in/cfn/main/SprongbootProject1Application.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 14:33:06.831
+!MESSAGE [Info] Document is null for editor: MyClass.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-29 14:33:06.831
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject1/src/main/java/in/cfn/main/MyClass.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:05:14.540
+!MESSAGE [Info]	[fetchChat] Request 3981c7f5-a9bb-434f-8370-50a932ff80d1 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1273.3299590051174ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:05:18.849
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:05:19.752
+!MESSAGE [Info]	[fetchChat] Request 22b29e61-4cc4-4c31-9a80-6c74cdc41ddf at <https://proxy.individual.githubcopilot.com/chat/completions> finished with 200 status after 905.9452920034528ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:05:20.139
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:05:20.655
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: Command failed: git -c safe.directory=* branch --show-current
+fatal: not a git repository (or any of the parent directories): .git
+
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:524:28)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:524:28)
+    at Pipe.<anonymous> (node:net:343:12) {
+  code: 128,
+  killed: false,
+  signal: null,
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:05:20.661
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: ENOENT: no such file or directory, open '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+    at open (node:internal/fs/promises:639:25)
+    at Object.readFile (node:internal/fs/promises:1246:14)
+    at wN.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:17)
+    at nre.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Aee.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at Eee.captureInitialBranchInfo (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:159:39) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:05:21.500
+!MESSAGE [Info]	[fetchChat] Request 3928658a-d846-49c8-9012-63c928ebfb3b at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 951.2619590014219ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:05:21.897
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:05:22.623
+!MESSAGE [Info]	[fetchChat] Request f60c1cb5-0734-447d-8c34-0cdd08445064 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 673.4418750032783ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:05:22.729
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:05:50.697
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: Command failed: git -c safe.directory=* branch --show-current
+fatal: not a git repository (or any of the parent directories): .git
+
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:524:28)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5) {
+  code: 128,
+  killed: false,
+  signal: null,
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:05:50.698
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: ENOENT: no such file or directory, open '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+    at open (node:internal/fs/promises:639:25)
+    at Object.readFile (node:internal/fs/promises:1246:14)
+    at wN.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:17)
+    at nre.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Aee.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at Eee.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:174:39)
+    at Eee.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:212:33)
+    at Eee.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:107:24)
+    at Eee.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:635:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:05:58.361
+!MESSAGE [Info]	[fetchChat] Request a2c26805-1e60-4d8e-b6ab-11527ef68c81 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1007.093791000545ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:05:59.707
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:06:00.818
+!MESSAGE [Info]	[fetchChat] Request 1a995381-9539-4fd9-aef6-6921ac98f859 at <https://proxy.individual.githubcopilot.com/chat/completions> finished with 200 status after 819.4377079978585ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:06:03.326
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:06:03.894
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: Command failed: git -c safe.directory=* branch --show-current
+fatal: not a git repository (or any of the parent directories): .git
+
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:524:28)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:524:28)
+    at Pipe.<anonymous> (node:net:343:12) {
+  code: 128,
+  killed: false,
+  signal: null,
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:06:03.895
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: ENOENT: no such file or directory, open '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+    at open (node:internal/fs/promises:639:25)
+    at Object.readFile (node:internal/fs/promises:1246:14)
+    at wN.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:17)
+    at nre.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Aee.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at Eee.captureInitialBranchInfo (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:159:39) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:06:05.013
+!MESSAGE [Info]	[fetchChat] Request f1ae00aa-9c10-4ef0-b4ee-654d9b7d289b at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1257.4610000029206ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:06:05.964
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:06:07.474
+!MESSAGE [Info]	[fetchChat] Request 00071c6b-2edb-4ffe-a452-a07d0008b9fa at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1497.0461670011282ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:06:07.785
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:06:33.804
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: Command failed: git -c safe.directory=* branch --show-current
+fatal: not a git repository (or any of the parent directories): .git
+
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:524:28)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:524:28)
+    at Pipe.<anonymous> (node:net:343:12) {
+  code: 128,
+  killed: false,
+  signal: null,
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:06:33.807
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: ENOENT: no such file or directory, open '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+    at open (node:internal/fs/promises:639:25)
+    at Object.readFile (node:internal/fs/promises:1246:14)
+    at wN.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:17)
+    at nre.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Aee.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at Eee.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:174:39)
+    at Eee.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:212:33)
+    at Eee.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:107:24)
+    at Eee.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:635:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:07:20.699
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: Command failed: git -c safe.directory=* branch --show-current
+fatal: not a git repository (or any of the parent directories): .git
+
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:524:28)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5) {
+  code: 128,
+  killed: false,
+  signal: null,
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:07:20.700
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: ENOENT: no such file or directory, open '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+    at open (node:internal/fs/promises:639:25)
+    at Object.readFile (node:internal/fs/promises:1246:14)
+    at wN.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:17)
+    at nre.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Aee.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at Eee.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:174:39)
+    at Eee.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:212:33)
+    at Eee.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:107:24)
+    at Eee.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:635:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:08:03.795
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: Command failed: git -c safe.directory=* branch --show-current
+fatal: not a git repository (or any of the parent directories): .git
+
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:524:28)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:524:28)
+    at Pipe.<anonymous> (node:net:343:12) {
+  code: 128,
+  killed: false,
+  signal: null,
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:08:03.796
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: ENOENT: no such file or directory, open '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+    at open (node:internal/fs/promises:639:25)
+    at Object.readFile (node:internal/fs/promises:1246:14)
+    at wN.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:17)
+    at nre.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Aee.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at Eee.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:174:39)
+    at Eee.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:212:33)
+    at Eee.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:107:24)
+    at Eee.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:635:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:10:20.712
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: Command failed: git -c safe.directory=* branch --show-current
+fatal: not a git repository (or any of the parent directories): .git
+
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:524:28)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:524:28)
+    at Pipe.<anonymous> (node:net:343:12) {
+  code: 128,
+  killed: false,
+  signal: null,
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:10:20.713
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: ENOENT: no such file or directory, open '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+    at open (node:internal/fs/promises:639:25)
+    at Object.readFile (node:internal/fs/promises:1246:14)
+    at wN.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:17)
+    at nre.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Aee.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at Eee.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:174:39)
+    at Eee.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:212:33)
+    at Eee.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:107:24)
+    at Eee.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:635:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:11:03.789
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: Command failed: git -c safe.directory=* branch --show-current
+fatal: not a git repository (or any of the parent directories): .git
+
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:524:28)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5) {
+  code: 128,
+  killed: false,
+  signal: null,
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:11:03.791
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: ENOENT: no such file or directory, open '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+    at open (node:internal/fs/promises:639:25)
+    at Object.readFile (node:internal/fs/promises:1246:14)
+    at wN.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:17)
+    at nre.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Aee.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at Eee.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:174:39)
+    at Eee.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:212:33)
+    at Eee.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:107:24)
+    at Eee.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:635:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:31:23.160
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: Command failed: git -c safe.directory=* branch --show-current
+fatal: not a git repository (or any of the parent directories): .git
+
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:524:28)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:524:28)
+    at Pipe.<anonymous> (node:net:343:12) {
+  code: 128,
+  killed: false,
+  signal: null,
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:31:23.161
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: ENOENT: no such file or directory, open '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+    at open (node:internal/fs/promises:639:25)
+    at Object.readFile (node:internal/fs/promises:1246:14)
+    at wN.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:17)
+    at nre.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Aee.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at Eee.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:174:39)
+    at Eee.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:212:33)
+    at Eee.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:107:24)
+    at Eee.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:635:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:31:23.161
+!MESSAGE [Info]	[repository] Failed to parse git HEAD file in file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: ENOENT: no such file or directory, open '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+    at open (node:internal/fs/promises:639:25)
+    at Object.readFile (node:internal/fs/promises:1246:14)
+    at wN.readFileString (/snapshot/copilot-client/lib/src/localFileSystem.ts:8:17)
+    at nre.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitParsingBranchLoader.ts:13:33)
+    at Aee.getBranchInfo (/snapshot/copilot-client/lib/src/repository/gitBranchResolver.ts:45:32)
+    at Eee.checkBranchChange (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:174:39)
+    at Eee.createEditSurvivalResult (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:212:33)
+    at Eee.report (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:107:24)
+    at Eee.updateAndReport (/snapshot/copilot-client/lib/src/editSurvivalTracking/editSurvivalReporter.ts:635:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/.git/HEAD'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-29 23:31:23.161
+!MESSAGE [Info]	[repository] Failed to run command 'git' in /Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config: Error: Command failed: git -c safe.directory=* branch --show-current
+fatal: not a git repository (or any of the parent directories): .git
+
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:524:28)
+    at maybeClose (node:internal/child_process:1104:16)
+    at Socket.<anonymous> (node:internal/child_process:456:11)
+    at Socket.emit (node:events:524:28)
+    at Pipe.<anonymous> (node:net:343:12) {
+  code: 128,
+  killed: false,
+  signal: null,
+  cmd: 'git -c safe.directory=* branch --show-current'
+}
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 00:01:49.442
+!MESSAGE [Info] Document is null for editor: SprongbootProject4Application.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 00:01:49.443
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/SprongbootProject4Application.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 00:01:49.464
+!MESSAGE [Info] Document is null for editor: Student.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 00:01:49.465
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/beans/Student.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 00:01:49.514
+!MESSAGE [Info] Document is null for editor: MainConfig.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 00:01:49.515
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject4/src/main/java/in/cfn/main/config/MainConfig.java
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-30 09:46:28.256
+!MESSAGE Could not get code actions due to timeout after 300 milliseconds in `textDocument/codeAction`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:159)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:210)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:998)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:156)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:167)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1071)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:167)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2110)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:892)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:870)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalCustomizedExpandToLevel(AbstractTreeViewer.java:1853)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpandToLevel(AbstractTreeViewer.java:1884)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1165)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1137)
+	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.reexpandCategories(ExtendedMarkersView.java:1168)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:105)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-30 10:58:46.554
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-30 10:58:47.837
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-07-30 14:01:43.002
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): SprongbootProject5JdbcCrud does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2549)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-07-30 14:01:43.003
+!MESSAGE SprongbootProject5JdbcCrud does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-07-30 14:01:43.004
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): SprongbootProject5JdbcCrud does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2549)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-07-30 14:01:43.004
+!MESSAGE SprongbootProject5JdbcCrud does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-07-30 14:01:43.005
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): SprongbootProject5JdbcCrud does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2549)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-07-30 14:01:43.005
+!MESSAGE SprongbootProject5JdbcCrud does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-07-30 14:01:43.005
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): SprongbootProject5JdbcCrud does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2549)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-07-30 14:01:43.005
+!MESSAGE SprongbootProject5JdbcCrud does not exist
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 14:01:43.040
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject5JdbcCrud/src/main/java/in/cfn/main/SprongbootProject5JdbcCrudApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 14:01:43.110
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject5JdbcCrud/src/main/java/in/cfn/main/entity/User.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 14:01:43.150
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject5JdbcCrud/src/main/java/in/cfn/main/dao/UserDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 14:01:43.180
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject5JdbcCrud/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 21:30:34.436
+!MESSAGE [Info] Document is null for editor: User.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 21:30:34.438
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject5JdbcCrud/src/main/java/in/cfn/main/entity/User.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 21:30:34.482
+!MESSAGE [Info] Document is null for editor: UserDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 21:30:34.483
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject5JdbcCrud/src/main/java/in/cfn/main/dao/UserDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 21:30:34.512
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 21:30:34.512
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject5JdbcCrud/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 21:30:34.528
+!MESSAGE [Info] Document is null for editor: UserRowMapper.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 21:30:34.528
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject5JdbcCrud/src/main/java/in/cfn/main/mapper/UserRowMapper.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 21:30:34.596
+!MESSAGE [Info] Document is null for editor: SprongbootProject5JdbcCrudApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-30 21:30:34.596
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject5JdbcCrud/src/main/java/in/cfn/main/SprongbootProject5JdbcCrudApplication.java
+!SESSION 2025-07-31 10:12:33.362 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-31 10:12:34.529
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-31 10:12:34.642
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (329) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-31 10:12:43.847
+!MESSAGE Logback config file: /Users/karansingh/Desktop/SpringTools4eclipse/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-31 10:12:43.998
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-31 10:12:43.998
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-31 10:12:44.123
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-31 10:12:44.123
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:12:47.795
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-31 10:12:47.989
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:425)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:12:48.022
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2025-07-31 10:12:49.226
+!MESSAGE Authorization Server started successfuly
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 10:12:49.658
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 10:12:49.936
+!MESSAGE [Info]	[certificates] Removed 5 expired certificates
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:13:01.323
+!MESSAGE [Info] Document is null for editor: SprongbootProject5JdbcCrudApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:13:01.323
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootProject5JdbcCrud/src/main/java/in/cfn/main/SprongbootProject5JdbcCrudApplication.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 10:18:21.736
+!MESSAGE [Info]	[fetchCompletions] Request da3df3b6-dee0-4091-a950-f3f06ed39eaa at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 960.8991249999963ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 10:18:22.687
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 10:18:22.983
+!MESSAGE [Info]	[fetchCompletions] Request c2517c01-389a-481c-87e2-0643465ec6b1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 282.8037089999998ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 10:18:23.075
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.jface 2 0 2025-07-31 10:21:51.684
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-31 10:21:51.684
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-31 10:22:59.289
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:151)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:246)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4660)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1657)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1680)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1665)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1394)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4427)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4003)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:25:06.561
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:25:06.561
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithHibernate1/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:43:44.942
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:43:44.943
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithHibernate1/pom.xml
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-31 10:44:33.171
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:48:01.139
+!MESSAGE [Info] Document is null for editor: hibernate.cfg.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:48:01.140
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithHibernate1/src/main/java/in/cfn/main/config/hibernate.cfg.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:48:01.163
+!MESSAGE [Info] Document is null for editor: User.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:48:01.163
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithHibernate1/src/main/java/in/cfn/main/entities/User.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:48:01.216
+!MESSAGE [Info] Document is null for editor: SpringbootWithHibernate1Application.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 10:48:01.217
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithHibernate1/src/main/java/in/cfn/main/SpringbootWithHibernate1Application.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 11:27:11.071
+!MESSAGE [Info] Document is null for editor: SpringbootWithHibernate1Application.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 11:27:11.072
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithHibernate2/src/main/java/in/cfn/main/SpringbootWithHibernate1Application.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 11:27:11.097
+!MESSAGE [Info] Document is null for editor: DbOperations.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 11:27:11.097
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithHibernate2/src/main/java/in/cfn/main/repository/DbOperations.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 11:27:11.106
+!MESSAGE [Info] Document is null for editor: HibernateConfig.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 11:27:11.106
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithHibernate2/src/main/java/in/cfn/main/config/HibernateConfig.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 11:27:11.150
+!MESSAGE [Info] Document is null for editor: DbOperationsImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 11:27:11.150
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithHibernate2/src/main/java/in/cfn/main/repository/DbOperationsImpl.java
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-31 11:36:18.196
+!MESSAGE Could not get code actions due to timeout after 300 milliseconds in `textDocument/codeAction`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:159)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:210)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.hasCorrections(JavaCorrectionProcessor.java:148)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.hasCorrections(JavaCorrectionProcessor.java:138)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.canFix(JavaCorrectionProcessor.java:525)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant.canFix(QuickAssistAssistant.java:130)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.hasQuickFix(DefaultMarkerAnnotationAccess.java:435)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.getImage(DefaultMarkerAnnotationAccess.java:390)
+	at org.eclipse.ui.texteditor.DefaultMarkerAnnotationAccess.paint(DefaultMarkerAnnotationAccess.java:266)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doPaint1(AnnotationRulerColumn.java:806)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doPaint(AnnotationRulerColumn.java:546)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:532)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:260)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:268)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4660)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1657)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1680)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1665)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1237)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:820)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6255)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend_bool(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSRunLoop.runMode(NSRunLoop.java:40)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:5223)
+	at org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(WorkbenchAdvisor.java:339)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.eventLoopIdle(IDEWorkbenchAdvisor.java:975)
+	at org.eclipse.ui.internal.Workbench$1.eventLoopIdle(Workbench.java:495)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1156)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 11:37:58.236
+!MESSAGE [Info] Document is null for editor: SpringbootWithDataJpa1Application.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 11:37:58.236
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithDataJpa1/src/main/java/in/cfn/main/SpringbootWithDataJpa1Application.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 11:37:58.250
+!MESSAGE [Info] Document is null for editor: Student.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 11:37:58.251
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithDataJpa1/src/main/java/in/cfn/main/entities/Student.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 11:37:58.261
+!MESSAGE [Info] Document is null for editor: StudentRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 11:37:58.261
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithDataJpa1/src/main/java/in/cfn/main/repository/StudentRepository.java
+!SESSION 2025-07-31 12:22:20.270 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-31 12:22:22.546
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-31 12:22:22.654
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (329) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-31 12:22:31.132
+!MESSAGE Logback config file: /Users/karansingh/Desktop/SpringTools4eclipse/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-31 12:22:31.310
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-31 12:22:31.310
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-31 12:22:31.427
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-31 12:22:31.427
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 12:22:35.171
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-31 12:22:35.263
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:425)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 12:22:35.551
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2025-07-31 12:22:36.418
+!MESSAGE Authorization Server started successfuly
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 12:22:37.280
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 12:22:37.609
+!MESSAGE [Info]	[certificates] Removed 5 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 12:29:07.642
+!MESSAGE [Info]	[fetchCompletions] Request 70ba2d9b-f1fd-4556-bd4d-e368758852d2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> rejected with FetchError: getaddrinfo ENOTFOUND proxy.individual.githubcopilot.com after 34.24241599999368ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-07-31 12:29:07.643
+!MESSAGE [Error]	[ghostText] Error on ghost text request: FetchError: getaddrinfo ENOTFOUND proxy.individual.githubcopilot.com
+    at fetch (/snapshot/copilot-client/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/snapshot/copilot-client/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at TN.fetch (/snapshot/copilot-client/lib/src/network/helix.ts:79:22)
+    at iF.fetchWithParameters (/snapshot/copilot-client/lib/src/openai/fetch.ts:871:26)
+    at iF.fetchAndStreamCompletions (/snapshot/copilot-client/lib/src/openai/fetch.ts:583:26)
+    at genericGetCompletionsFromNetwork (/snapshot/copilot-client/lib/src/ghostText/ghostText.ts:172:21) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  erroredSysCall: 'getaddrinfo'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 12:34:32.577
+!MESSAGE [Info]	[fetchCompletions] Request 2c648467-309b-4b28-88ef-5c76cb71e0c8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 1064.3855000000913ms
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 12:34:36.481
+!MESSAGE [Info] Completion request timed out after 5000 milliseconds
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 12:34:36.596
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 12:34:42.188
+!MESSAGE [Info]	[fetchCompletions] Request a58bdf68-04cc-48e8-ae31-e082bc1fcaff at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 313.7626249999739ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 12:34:42.339
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 12:34:44.249
+!MESSAGE [Info]	[fetchCompletions] Request f4ecaf81-4274-4fda-a1a0-f385385e0fa0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 295.5873750000028ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 12:34:44.373
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 12:34:45.954
+!MESSAGE [Info]	[fetchCompletions] Request 86549e34-14f5-4567-9228-b3f0e69bf7c4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 305.5837499999907ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 12:34:46.205
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 12:34:46.482
+!MESSAGE [Info]	[fetchCompletions] Request 5749410c-e3a8-4c10-9230-09e35193fc7c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 266.6467090001097ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-07-31 12:34:46.626
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.jface 2 0 2025-07-31 12:48:09.047
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-31 12:48:09.047
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 13:48:41.599
+!MESSAGE [Info] Document is null for editor: StudentRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 13:48:41.600
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithDataJpa1/src/main/java/in/cfn/main/repository/StudentRepository.java

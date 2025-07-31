@@ -1,0 +1,11 @@
+package in.cfn.main.config;
+
+import org.hibernate.SessionFactory;
+
+public class HibernateConfig {
+
+	public SessionFactory getSessionFactory() {
+		
+	}
+	
+}

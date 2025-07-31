@@ -1,0 +1,20 @@
+package in.cfn.main.repository;
+
+import in.cfn.main.entities.User;
+
+public class DbOperationsImpl implements DbOperations {
+
+	@Override
+	public User getUserDetails(int id) {
+		
+//		If we want 
+		try {
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+
+}

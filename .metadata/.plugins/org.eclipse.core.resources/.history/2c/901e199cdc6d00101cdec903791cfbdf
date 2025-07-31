@@ -1,0 +1,5 @@
+package in.cfn.main.services;
+
+public interface StudentService {
+
+}

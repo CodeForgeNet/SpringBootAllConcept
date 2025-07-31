@@ -1,0 +1,22 @@
+package in.cfn.main;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
+
+// This project is not good way to do. watch its 2nd part.
+
+
+@SpringBootApplication
+public class SpringbootWithHibernate1Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootWithHibernate1Application.class, args);
+	}
+
+}

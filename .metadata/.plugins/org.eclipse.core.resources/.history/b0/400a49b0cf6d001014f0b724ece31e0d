@@ -1,0 +1,27 @@
+package in.cfn.main.repository;
+
+import org.hibernate.Session;
+
+import in.cfn.main.config.HibernateConfig;
+import in.cfn.main.entities.User;
+
+public class DbOperationsImpl implements DbOperations {
+
+	@Override
+	public User getUserDetails(int id) {
+		
+//		If we want the resources to delete/close automatically then here we can use tryWithResources 
+		try(
+			Session session = HibernateConfig.getSessionFactory().openSession();
+			) {
+			
+			session.get(null, session)
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+
+}

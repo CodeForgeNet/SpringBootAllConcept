@@ -1,0 +1,3 @@
+spring.application.name=SpringbootWithDataJpa1
+
+spring.datasource.url=jdbc:mysql://localhost:3306/springboot

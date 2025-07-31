@@ -1,0 +1,13 @@
+package in.cfn.main.repository;
+
+import in.cfn.main.entities.User;
+
+public class DbOperationsImpl implements DbOperations {
+
+	@Override
+	public User getUserDetails(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

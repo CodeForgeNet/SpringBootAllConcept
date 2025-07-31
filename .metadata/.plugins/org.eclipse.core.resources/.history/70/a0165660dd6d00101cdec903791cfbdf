@@ -1,0 +1,30 @@
+package in.cfn.main.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import in.cfn.main.entities.Student;
+import in.cfn.main.repository.StudentRepository;
+
+public class StudentServiceImpl implements StudentService {
+
+	@Autowired
+	private StudentRepository studentRepository;
+
+	@Override
+	public boolean addStudentDetails(Student std) {
+
+		boolean status = false;
+		status = true;
+
+		try {
+
+			studentRepository.save(std);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		return false;
+	}
+
+}

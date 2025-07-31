@@ -1,0 +1,10 @@
+package in.cfn.main.entities;
+
+public class Student {
+
+	private long id;
+	private String name;
+	private int rollno;
+	private float marks;
+	
+}

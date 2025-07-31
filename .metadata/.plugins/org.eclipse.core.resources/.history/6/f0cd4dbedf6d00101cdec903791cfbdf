@@ -1,0 +1,7 @@
+package in.cfn.main.services;
+
+import in.cfn.main.entities.Student;
+
+public interface StudentService {
+	public boolean addStudentDetails(Student std);
+}

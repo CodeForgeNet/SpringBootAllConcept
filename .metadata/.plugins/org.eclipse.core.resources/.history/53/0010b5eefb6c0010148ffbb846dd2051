@@ -1,0 +1,5 @@
+package in.cfn.main.dao;
+
+public class UserDao {
+
+}
