@@ -66,7 +66,9 @@ public class SpringbootWithDataJpa1Application {
 		
 		
 		
+//		 -=-=-=-=-=-=-= UPDATE OPERATION =-=-=-=-=--
 		
+		stdService.updateStdDetails( 1l, 75f);
 		
 	}
 
