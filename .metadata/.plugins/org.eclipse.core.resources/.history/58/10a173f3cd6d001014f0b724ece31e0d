@@ -1,5 +1,0 @@
-package in.cfn.main.repository;
-
-public interface DbOperations {
-
-}
