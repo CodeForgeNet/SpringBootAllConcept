@@ -1,8 +1,0 @@
-package in.cfn.main.entity;
-
-public class User {
-	public String name;
-	public String email;
-	public String gender;
-	public String city;
-}
