@@ -68,7 +68,23 @@ public class SpringbootWithDataJpa1Application {
 		
 //		 -=-=-=-=-=-=-= UPDATE OPERATION =-=-=-=-=--
 		
-		stdService.updateStdDetails( 1l, 75f);
+//		boolean status = stdService.updateStdDetails( 1l, 75f);
+//		if(status) {
+//			System.out.println("Student details updated successfully");
+//		}else {
+//			System.out.println("Student details not updated due to some error");			
+//		}
+		
+		
+		
+//		=-=-=-=- DELETE OPERATION =-=-=-=-=-
+		
+		boolean status = stdService.deleteStdDetails(1l);
+		if(status) {
+			System.out.println("Student deleted successfully");
+		}else {
+			System.out.println("Deletion failed due to some error");			
+		}
 		
 	}
 

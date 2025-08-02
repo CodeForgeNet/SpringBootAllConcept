@@ -2157,3 +2157,45 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 13:48:41.600
 !MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithDataJpa1/src/main/java/in/cfn/main/repository/StudentRepository.java
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-31 15:20:30.067
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 15:23:26.272
+!MESSAGE [Info] Document is null for editor: Student.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 15:23:26.273
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithDataJpa1/src/main/java/in/cfn/main/entities/Student.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 15:23:26.294
+!MESSAGE [Info] Document is null for editor: StudentService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 15:23:26.295
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithDataJpa1/src/main/java/in/cfn/main/services/StudentService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 15:23:26.308
+!MESSAGE [Info] Document is null for editor: StudentServiceImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 15:23:26.308
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithDataJpa1/src/main/java/in/cfn/main/services/StudentServiceImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 15:23:26.319
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 15:23:26.319
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithDataJpa1/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 15:23:26.369
+!MESSAGE [Info] Document is null for editor: SpringbootWithDataJpa1Application.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-07-31 15:23:26.369
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithDataJpa1/src/main/java/in/cfn/main/SpringbootWithDataJpa1Application.java

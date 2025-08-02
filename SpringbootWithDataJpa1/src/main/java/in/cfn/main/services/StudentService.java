@@ -14,4 +14,6 @@ public interface StudentService {
 	
 	public boolean updateStdDetails(long id, float marks);
 	
+	public boolean deleteStdDetails(long id);
+	
 }

@@ -74,5 +74,23 @@ public class StudentServiceImpl implements StudentService {
 		}
 		
 	}
+	
+	
+	// DELETE
+
+	@Override
+	public boolean deleteStdDetails(long id) {
+		boolean status = false;
+		try {
+			
+			studentRepository.deleteById(id);
+			status=true;
+			
+		} catch (Exception e) {
+			status=false; 
+			e.printStackTrace();
+		}
+		return status;
+	}
 
 }
