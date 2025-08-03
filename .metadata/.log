@@ -2395,3 +2395,182 @@ java.io.FileNotFoundException: /Users/karansingh/Desktop/SpringTools4eclipse/.me
 
 !ENTRY org.eclipse.lsp4e 1 0 2025-08-03 09:52:43.298
 !MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-03 10:01:19.149
+!MESSAGE [Info] Document is null for editor: profile.html
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-03 10:01:19.149
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringBootWithThymeleaf/src/main/resources/templates/profile.html
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:43:29.827
+!MESSAGE [Info]	[certificates] Removed 5 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:45:27.511
+!MESSAGE [Info]	[fetchChat] Request bb288139-230e-4b7f-8fd6-3cf0f52559e3 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 1214.3799170004204ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:45:30.792
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:45:31.911
+!MESSAGE [Info]	[fetchChat] Request b9ef634d-0140-45b7-9008-74769284262e at <https://proxy.individual.githubcopilot.com/chat/completions> finished with 200 status after 1117.5503749996424ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:45:33.025
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.core.databinding.observable 4 2 2025-08-03 10:45:33.031
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.databinding.observable".
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4926)
+	at org.eclipse.swt.SWT.error(SWT.java:4860)
+	at org.eclipse.swt.SWT.error(SWT.java:4831)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:854)
+	at org.eclipse.swt.widgets.Widget.checkParent(Widget.java:571)
+	at org.eclipse.swt.widgets.Widget.<init>(Widget.java:145)
+	at org.eclipse.swt.widgets.Control.<init>(Control.java:124)
+	at org.eclipse.swt.widgets.Scrollable.<init>(Scrollable.java:76)
+	at org.eclipse.swt.widgets.Composite.<init>(Composite.java:96)
+	at com.microsoft.copilot.eclipse.ui.chat.FileChangeSummaryBar.<init>(FileChangeSummaryBar.java:52)
+	at com.microsoft.copilot.eclipse.ui.chat.tools.FileToolService.lambda$4(FileToolService.java:81)
+	at org.eclipse.core.internal.databinding.observable.sideeffect.SideEffect.lambda$1(SideEffect.java:330)
+	at org.eclipse.core.databinding.observable.ObservableTracker.runAndMonitor(ObservableTracker.java:113)
+	at org.eclipse.core.internal.databinding.observable.sideeffect.SideEffect.update(SideEffect.java:199)
+	at org.eclipse.core.internal.databinding.observable.sideeffect.SideEffect$PrivateInterface.run(SideEffect.java:349)
+	at org.eclipse.core.databinding.observable.Realm$1.run(Realm.java:155)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.databinding.observable.Realm.safeRun(Realm.java:159)
+	at org.eclipse.jface.databinding.swt.DisplayRealm.lambda$0(DisplayRealm.java:64)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4382)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4005)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.eclipse.jface 2 0 2025-08-03 10:45:33.520
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-08-03 10:45:33.520
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:45:34.696
+!MESSAGE [Info]	[fetchChat] Request 0fab0204-c8e8-468b-882b-260e5126c4af at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 923.8032080000266ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:45:35.236
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:45:35.928
+!MESSAGE [Info]	[fetchChat] Request 9f2f1dd8-f8d8-4e22-9ba6-c6d57129302d at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 651.3788329996169ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:45:36.106
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:48:39.094
+!MESSAGE [Info]	[fetchChat] Request fad83c91-51e3-4299-a33f-506902143bcc at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 2088.9597089998424ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:48:41.373
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [tool_calls]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:48:42.159
+!MESSAGE [Info]	[fetchChat] Request 4f9c6511-c43b-42f5-94e4-b17ca257ac8f at <https://proxy.individual.githubcopilot.com/chat/completions> finished with 200 status after 788.3177499999292ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:48:43.238
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:48:44.526
+!MESSAGE [Info]	[fetchChat] Request a0d284cf-8c67-468b-b82e-08f6cb1e0d98 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 918.9339169999585ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:48:45.015
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:48:45.539
+!MESSAGE [Info]	[fetchChat] Request 5eafb84a-deb0-4862-81a3-5e4e48a56897 at <https://api.individual.githubcopilot.com/chat/completions> finished with 200 status after 502.5861670002341ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:48:46.064
+!MESSAGE [Info]	[streamMessages] message 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:49:53.218
+!MESSAGE [Info]	[fetchCompletions] Request b6e98b2a-d7bb-41f4-b5bc-ee69d6be577c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 260.0107500003651ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:49:53.252
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-03 10:50:28.515
+!MESSAGE [Info] Language ID not found for extension: html
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:50:29.035
+!MESSAGE [Info]	[default] Context provider relatedFilesShim exceeded time budget of 150ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:50:29.312
+!MESSAGE [Info]	[fetchCompletions] Request 2429b64b-17de-41d2-a834-80234de2a682 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 273.4076669998467ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:50:29.692
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [content_filter]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:50:30.320
+!MESSAGE [Info]	[fetchCompletions] Request 439b078b-c8f9-4555-b740-90d3c3e86760 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 237.0170419998467ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-03 10:50:30.413
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-03 15:26:09.506
+!MESSAGE [Info] Document is null for editor: profile.html
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-03 15:26:09.508
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringBootWithThymeleaf/src/main/resources/templates/profile.html
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-03 15:26:09.524
+!MESSAGE [Info] Document is null for editor: index.html
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-03 15:26:09.524
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringBootWithThymeleaf/src/main/resources/static/index.html
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-03 15:26:09.535
+!MESSAGE [Info] Document is null for editor: looping.html
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-03 15:26:09.535
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringBootWithThymeleaf/src/main/resources/templates/looping.html
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-03 15:26:09.544
+!MESSAGE [Info] Document is null for editor: conditional.html
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-03 15:26:09.544
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringBootWithThymeleaf/src/main/resources/templates/conditional.html
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-03 15:26:09.591
+!MESSAGE [Info] Document is null for editor: MyController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-03 15:26:09.591
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringBootWithThymeleaf/src/main/java/in/cfn/main/controllers/MyController.java
