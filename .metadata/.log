@@ -3156,3 +3156,57 @@ java.lang.IllegalStateException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 13:08:11.039
+!MESSAGE [Info] Document is null for editor: StudentServiceImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 13:08:11.039
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithDataJpa1/src/main/java/in/cfn/main/services/StudentServiceImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 13:08:12.374
+!MESSAGE [Info] Document is null for editor: StudentService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 13:08:12.374
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithDataJpa1/src/main/java/in/cfn/main/services/StudentService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 14:02:14.713
+!MESSAGE [Info] Document is null for editor: SpringBootRestfulWsApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 14:02:14.715
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringBootRestfulWS/src/main/java/in/cfn/main/SpringBootRestfulWsApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 14:02:14.741
+!MESSAGE [Info] Document is null for editor: User.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 14:02:14.741
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringBootRestfulWS/src/main/java/in/cfn/main/entities/User.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 14:02:14.759
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 14:02:14.759
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringBootRestfulWS/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 14:02:14.772
+!MESSAGE [Info] Document is null for editor: UserRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 14:02:14.772
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringBootRestfulWS/src/main/java/in/cfn/main/repositories/UserRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 14:02:14.781
+!MESSAGE [Info] Document is null for editor: UserService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 14:02:14.782
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringBootRestfulWS/src/main/java/in/cfn/main/services/UserService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 14:02:14.792
+!MESSAGE [Info] Document is null for editor: UserServiceImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 14:02:14.793
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringBootRestfulWS/src/main/java/in/cfn/main/services/UserServiceImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 14:02:14.834
+!MESSAGE [Info] Document is null for editor: MyController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 14:02:14.834
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringBootRestfulWS/src/main/java/in/cfn/main/controllers/MyController.java
