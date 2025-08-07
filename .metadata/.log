@@ -2781,3 +2781,158 @@ java.io.FileNotFoundException: /Users/karansingh/Desktop/SpringTools4eclipse/.me
 
 !ENTRY org.eclipse.lsp4e 1 0 2025-08-06 16:34:06.978
 !MESSAGE [Info]	[certificates] Removed 5 expired certificates
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-06 23:39:02.535
+!MESSAGE [Info] Document is null for editor: SBjpaExampleApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-06 23:39:02.537
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SBjpaExample/src/main/java/com/jpa/test/SBjpaExampleApplication.java
+!SESSION 2025-08-07 11:18:50.384 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/karansingh/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-07 11:18:51.742
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-08-07 11:18:51.848
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (329) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-07 11:19:08.903
+!MESSAGE Logback config file: /Users/karansingh/Desktop/SpringTools4eclipse/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-08-07 11:19:09.092
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-07 11:19:09.092
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-08-07 11:19:09.217
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-07 11:19:09.217
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 11:19:12.586
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY org.eclipse.egit.core 2 0 2025-08-07 11:19:12.642
+!MESSAGE Cannot clean up internal hidden project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Users/karansingh/Desktop/SpringTools4eclipse/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/9.tree)[568]: java.io.FileNotFoundException: /Users/karansingh/Desktop/SpringTools4eclipse/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/9.tree (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:55)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:2178)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:975)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:829)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1109)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1192)
+	at org.eclipse.egit.core.internal.efs.HiddenResources.openProject(HiddenResources.java:321)
+	at org.eclipse.egit.core.internal.efs.HiddenResources.getHiddenProject(HiddenResources.java:274)
+	at org.eclipse.egit.core.internal.efs.HiddenResources.initialize(HiddenResources.java:127)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2025-08-07 11:19:12.647
+!MESSAGE Could not write metadata for '/.org.eclipse.egit.core.cmp'.
+!STACK 0
+java.io.FileNotFoundException: /Users/karansingh/Desktop/SpringTools4eclipse/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/9.tree (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:55)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:2178)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:975)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:829)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1109)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1192)
+	at org.eclipse.egit.core.internal.efs.HiddenResources.openProject(HiddenResources.java:321)
+	at org.eclipse.egit.core.internal.efs.HiddenResources.getHiddenProject(HiddenResources.java:274)
+	at org.eclipse.egit.core.internal.efs.HiddenResources.initialize(HiddenResources.java:127)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 11:19:12.879
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-08-07 11:19:13.035
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:425)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2025-08-07 11:19:13.873
+!MESSAGE Authorization Server started successfuly
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-07 11:19:15.449
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.348.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-08-07 11:19:15.744
+!MESSAGE [Info]	[certificates] Removed 5 expired certificates
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-08-07 11:21:57.713
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): SBjpaExample does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2549)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2361)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2404)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-08-07 11:21:57.714
+!MESSAGE SBjpaExample does not exist
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 11:21:57.763
+!MESSAGE [Info] Document is null for editor: SBjpaExampleApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 11:21:57.763
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SBjpaExample/src/main/java/com/jpa/test/SBjpaExampleApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 12:00:32.235
+!MESSAGE [Info] Document is null for editor: Student.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 12:00:32.236
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithDataJpa1/src/main/java/in/cfn/main/entities/Student.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 12:00:32.257
+!MESSAGE [Info] Document is null for editor: StudentRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 12:00:32.257
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithDataJpa1/src/main/java/in/cfn/main/repository/StudentRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 12:00:32.266
+!MESSAGE [Info] Document is null for editor: StudentService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 12:00:32.267
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithDataJpa1/src/main/java/in/cfn/main/services/StudentService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 12:00:32.274
+!MESSAGE [Info] Document is null for editor: StudentServiceImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 12:00:32.274
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithDataJpa1/src/main/java/in/cfn/main/services/StudentServiceImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 12:00:32.319
+!MESSAGE [Info] Document is null for editor: SpringbootWithDataJpa1Application.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-08-07 12:00:32.319
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///Users/karansingh/Desktop/SpringTools4eclipse/SpringbootWithDataJpa1/src/main/java/in/cfn/main/SpringbootWithDataJpa1Application.java
